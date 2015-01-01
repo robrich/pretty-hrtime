@@ -1,7 +1,7 @@
 {
   "name": "pretty-hrtime",
   "description": "process.hrtime() to words",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "homepage": "https://github.com/robrich/pretty-hrtime",
   "repository": "git://github.com/robrich/pretty-hrtime.git",
   "author": "Rob Richardson (http://robrich.org/)",
@@ -11,8 +11,8 @@
     "benchmark"
   ],
   "devDependencies": {
-    "mocha": "^1.21.4",
-    "should": "^4.0.4"
+    "mocha": "^2.1.0",
+    "should": "^4.4.2"
   },
   "scripts": {
     "test": "mocha"
@@ -23,7 +23,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/robrich/orchestrator/raw/master/LICENSE"
+      "url": "http://github.com/robrich/pretty-hrtime/raw/master/LICENSE"
     }
   ]
 }
