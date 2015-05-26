@@ -20,10 +20,5 @@
   "engines": {
     "node": ">= 0.8"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/robrich/pretty-hrtime/raw/master/LICENSE"
-    }
-  ]
+  "license": "MIT"
 }
