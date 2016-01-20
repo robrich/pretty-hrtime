@@ -70,5 +70,17 @@ describe('pretty-hrtime', function() {
 			runTest('600 nanoseconds', [0, 600]);
 		});
 
+		// Node v5.4+ negative nano values
+		it('31s', function() {
+			runTest('30 seconds 902 milliseconds 90 microseconds 742 nanoseconds', [31, -97909258]);
+		});
+
+		it('2.9s', function() {
+			runTest('2 seconds 904 milliseconds 961 microseconds 742 nanoseconds', [3, -95038258]);
+		});
+
+		it('603ms', function() {
+			runTest('603 milliseconds 429 microseconds 224 nanoseconds', [1, -396570776]);
+		});
 	});
 });
