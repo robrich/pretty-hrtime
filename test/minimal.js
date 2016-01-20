@@ -62,5 +62,17 @@ describe('pretty-hrtime', function() {
 			runTest('600 ns', [0, 600]);
 		});
 
+		// Node v5.4+ negative nano values
+		it('31s', function() {
+			runTest('31 s', [31, -97909258]);
+		});
+
+		it('2.9s', function() {
+			runTest('2.9 s', [3, -95038258]);
+		});
+
+		it('603ms', function() {
+			runTest('603 ms', [1, -396570776]);
+		});
 	});
 });
