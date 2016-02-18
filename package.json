@@ -1,7 +1,7 @@
 {
   "name": "pretty-hrtime",
   "description": "process.hrtime() to words",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/robrich/pretty-hrtime",
   "repository": "git://github.com/robrich/pretty-hrtime.git",
   "author": "Rob Richardson (http://robrich.org/)",
