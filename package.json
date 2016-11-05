@@ -1,7 +1,7 @@
 {
   "name": "pretty-hrtime",
   "description": "process.hrtime() to words",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/robrich/pretty-hrtime",
   "repository": "git://github.com/robrich/pretty-hrtime.git",
   "author": "Rob Richardson (http://robrich.org/)",
@@ -11,9 +11,9 @@
     "benchmark"
   ],
   "devDependencies": {
-    "jshint": "^2.8.0",
-    "mocha": "^2.3.3",
-    "should": "^7.1.0"
+    "jshint": "^2.9.4",
+    "mocha": "^3.1.2",
+    "should": "^11.1.1"
   },
   "scripts": {
     "test": "mocha && jshint ."
